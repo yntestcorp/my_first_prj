@@ -19,17 +19,17 @@
 # include <stdlib.h>
 # include <time.h>
 
-# include <openssl/e_os2.h>
+# include "e_os2.h"
 
 # ifndef OPENSSL_NO_STDIO
 #  include <stdio.h>
 # endif
 
-# include <openssl/stack.h>
-# include <openssl/safestack.h>
-# include <openssl/opensslv.h>
-# include <openssl/ossl_typ.h>
-# include <openssl/opensslconf.h>
+# include "stack.h"
+# include "safestack.h"
+# include "opensslv.h"
+# include "ossl_typ.h"
+# include "opensslconf.h"
 
 # ifdef CHARSET_EBCDIC
 #  include <openssl/ebcdic.h>
