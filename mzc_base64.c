@@ -3,9 +3,9 @@
 #include <stdint.h>
 #include <assert.h>
 
-#include <openssl/bio.h>
-#include <openssl/evp.h>
-#include <openssl/buffer.h>
+#include "vendor-openssl/include64/openssl/bio.h"
+#include "vendor-openssl/include64/openssl/evp.h"
+#include "vendor-openssl/include64/openssl//buffer.h"
 
 #include "mzc_base64.h"
 
